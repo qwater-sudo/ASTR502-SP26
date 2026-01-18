@@ -1,0 +1,14 @@
+# Caiden Ray
+# ASTR 502 BHAC15 Test
+
+import numpy as np
+import matplotlib as plt
+import pandas as pd
+
+# Create a function for calling specific columns
+def get_cal(x):
+    # x is the column number
+    data = (line.split('\t')[col-1] for line in open('bhac15_t_1.dat')) 
+    return array.array('d',map(float,get_col(x)))
+
+get_cal(5)
